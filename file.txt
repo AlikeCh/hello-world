@@ -1,0 +1,4 @@
+1 This is the first line.
+2 Hello, Everybody!
+3 192.168.4.2 w2k8.benet.com
+4 hunter:x:504:504::/home/hunter:/bin/bash

@@ -21,3 +21,15 @@ for i in range(2, int(math.sqrt(num)) + 1):
 else:
     flag_sushu = 1
     
+while num != 0:
+	num_r = num_r * 10 + num % 10
+	num = num / 10
+
+if num_r == old:
+	flag_huiwen = 1
+
+if flag_huiwen and flag_sushu:
+	print old, '既是回文数，又是素数'
+else:
+	print old, '不是回文+素数'
+
